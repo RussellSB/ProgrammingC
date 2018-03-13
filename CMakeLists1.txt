@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.8)
+project(assignment)
+
+set(CMAKE_C_STANDARD 11)
+
+set(SOURCE_FILESA task_a.c)
+add_executable(task_a ${SOURCE_FILESA})
+
+set(SOURCE_FILESB task_b.c)
+add_executable(task_b ${SOURCE_FILESB})
+
+set(SOURCE_FILESC task_c.c)
+add_executable(task_c ${SOURCE_FILESC})
+
+set(SOURCE_FILESD task_d.c)
+add_executable(task_d ${SOURCE_FILESD})
+
+set(SOURCE_FILESE task_e.c)
+add_executable(task_e ${SOURCE_FILESE})
